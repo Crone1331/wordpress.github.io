@@ -169,6 +169,10 @@ margin-top:20px;
 .waiting_item .waiting_img{
     width:100%;
 }
+.waiting_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
 /*optimization*/
 .optimization{
     position: relative;
@@ -238,4 +242,87 @@ margin:0 auto;
     line-height: 20px;
 color: #EFEFEF;
 margin-top:25px;
+}
+/*bonus*/
+.bonus{
+    min-height: 631px;
+    background: #EFEFEF;
+    padding:88px 0 100px 0;
+}
+.gift{
+    
+    display:block;
+    margin:0 auto;
+}
+.bonus_text{
+    margin-top:45px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 43px;
+text-align: center;
+
+color: #252525;
+}
+/*timetable*/
+.timetable{
+    max-height: 512px;
+    padding:70px 0 52px 0;
+}
+.first_img{
+    display:block;
+    margin:0 auto;
+}
+.info_table span{
+    display:block;
+    text-align: center;
+    margin-top:27px;
+}
+.first_text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+text-transform: uppercase;
+color: #252525;
+}
+.date_table{
+    text-transform: uppercase;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+color: #299CBD;
+}
+.have_time{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+
+color: #4A4A4A;
+}
+/*footer*/
+.footer{
+    background: #1A1A1A;
+    min-height: 170px;
+    padding:57px 0 60px 0;
+}
+.footer_text, .footer_text a{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 21px;
+text-align: center;
+
+text-decoration: none;
+color: #888888;
+}
+.footer_text .under{
+    margin-bottom:10px;
+    border-bottom: 0.5px solid  #888888 ;
+    color: #888888;
 }
